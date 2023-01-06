@@ -71,7 +71,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+section{
+    margin-top: 130px;
+}
 /* about style */
 
 .about{
@@ -80,27 +82,35 @@ main{
     margin-top: 130px;
     padding: 130px 150px;
     text-align: center;
+    margin-bottom: 124px;
+
     
 }
+
 .section-title{
-    
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
 font-size: 35px;
+
+
 
 }
 .section-description{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    
 }
+
+
 .about-info-container{
     display: flex;
     justify-content: space-around;
 }
 
 
-}
+
 .about .info-title{
     color: #909090;
     font-size: 20px;
@@ -109,4 +119,26 @@ font-size: 35px;
     
     font-size: 20px;
     color: #0c0c0c;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+
+}
+.skill-description{
+    color: #757575;
 }
